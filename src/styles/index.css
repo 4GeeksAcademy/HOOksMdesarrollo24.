@@ -10,8 +10,8 @@
     height: 100px;
     border-radius: 50%;
     margin: 10px;
-    background-color: grey; /* Color apagado */
-    transition: opacity 0.3s; /* Suaviza el cambio */
+    background-color: grey; /* Color off */
+    transition: opacity 0.3s; /* Change */
   }
   
   .circle-red {
@@ -27,10 +27,10 @@
   }
   
   .turn-on {
-    opacity: 1; /* Luz encendida */
+    opacity: 1; /* Luz on */
   }
   
   .circle:not(.turn-on) {
-    opacity: 0.3; /* Luz apagada */
+    opacity: 0.3; /* Luz off */
   }
   

@@ -1,7 +1,7 @@
 import React from "react"; // Import React
 import "../../styles/index.css"; // Import CSS file
 
-// Component to traffi light
+// Component to traffic light
 const TrafficLight = ({ color, onColorChange }) => { 
   return (
     <div className="traffic-light">
